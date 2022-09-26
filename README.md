@@ -1,6 +1,6 @@
 # What are the topics we are gonna introduce in this workshop
 
-1. React with Tailwind CSS for quickly creating any front end without relying on component libraries.
+1. React with ChakraUI for quickly creating a front end
 2. Introduction to state management, rather than complicating life with Redux, we will use Zustand.
 3. Differences between React and NextJS and why NextJS. And what makes a piece of library or framework production ready?
 4. Differences between a SQL & NoSQL database and when to use what?
@@ -11,7 +11,7 @@
 
 > Quick Note: Everything, will be done live. Even looking into documentation while creating the application.
 
-- Install React with Tailwind CSS
+- Install React with Chakra UI
 - Create Counter without state management
 - Create another counter app with state management
 - Explain the first disadvantage of using a library over a production framework
