@@ -1,10 +1,4 @@
-import {
-  Button,
-  Center,
-  Heading,
-  useColorMode,
-  useColorModeValue,
-} from '@chakra-ui/react';
+import { Center, Heading, useColorModeValue } from '@chakra-ui/react';
 import React from 'react';
 
 const FrontPage = () => {
@@ -14,7 +8,7 @@ const FrontPage = () => {
     <React.Fragment>
       <Center>
         <Heading as='h1' color={color}>
-          Welcome IITG
+          IIT Guwahati X Hasura WorkShop
         </Heading>
       </Center>
     </React.Fragment>
