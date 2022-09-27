@@ -1,14 +1,16 @@
+import { Box, Container, Flex, Spacer } from '@chakra-ui/react';
 import React from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
+    <Flex flexDirection='column' minH='100vh'>
       <Navbar />
-      {children}
+      <Box>{children}</Box>
+      <Spacer />
       <Footer />
-    </React.Fragment>
+    </Flex>
   );
 };
 

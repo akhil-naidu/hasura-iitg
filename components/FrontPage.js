@@ -1,5 +1,6 @@
 import {
   Button,
+  Center,
   Heading,
   useColorMode,
   useColorModeValue,
@@ -7,17 +8,15 @@ import {
 import React from 'react';
 
 const FrontPage = () => {
-  const { toggleColorMode, colorMode } = useColorMode();
-  const color = useColorModeValue('red.500', 'red.200');
+  const color = useColorModeValue('green.500', 'green.200');
 
   return (
     <React.Fragment>
-      <Heading as='h1' color={color}>
-        Checking Chakra UI
-      </Heading>
-      <Button onClick={toggleColorMode}>
-        Toggle {colorMode === 'light' ? `dark` : 'light'}
-      </Button>
+      <Center>
+        <Heading as='h1' color={color}>
+          Welcome IITG
+        </Heading>
+      </Center>
     </React.Fragment>
   );
 };
