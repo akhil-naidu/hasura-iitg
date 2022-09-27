@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# What are the topics we are gonna introduce in this workshop
 
-## Getting Started
+1. React with ChakraUI for quickly creating a front end
+2. Introduction to state management, rather than complicating life with Redux, we will use Zustand.
+3. Differences between React and NextJS and why NextJS. And what makes a piece of library or framework production ready?
+4. Differences between a SQL & NoSQL database and when to use what?
+5. Introduction to GraphQL API and its advantages over REST API.
+6. Introduction to Hasura and replacing the entire backend with Hasura.
 
-First, run the development server:
+# Step by Step course road map
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+> Quick Note: Everything, will be done live. Even looking into documentation while creating the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Install React with Chakra UI
+- Create Counter without state management
+- Create another counter app with state management
+- Explain the first disadvantage of using a library over a production framework
+- Introduction to NextJS and comparing it with React
+- Add authentication to the above application using micro service, here we will use Firebase or Auth0
+- Create a ToDo application
+- Creating a RestAPI without having a dedicated server
+- Explaining SQL and NoSQL databases
+- Introduction to GraphQL using SpaceX API
+- Using Hasura to create our GraphQL API
+- A small demo on creating a dedicated GraphQL API using NextJS
+- Implementing the ToDo application with GraphQL
+- Adding authentication as an Hasura Actions and more about Hasura Actions
+- Role-based access on top of Authentication
+- Introduction to Hasura event_triggers
+- Combining multiple GraphQL Schemas into a single Schema using Hasura Remotes
