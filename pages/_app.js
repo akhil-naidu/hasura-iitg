@@ -1,12 +1,13 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from '@/styles/theme';
+import Layout from '@/components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
-      This is a navbar from _app
-      <Component {...pageProps} />
-      this is a footer from _app
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ChakraProvider>
   );
 }
