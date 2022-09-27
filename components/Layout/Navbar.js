@@ -1,6 +1,7 @@
 import { Box, Flex, IconButton, useColorMode } from '@chakra-ui/react';
 import React from 'react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+import CustomLink from '@/components/CustomLink';
 
 const Navbar = () => {
   const { toggleColorMode, colorMode } = useColorMode();
@@ -8,7 +9,9 @@ const Navbar = () => {
     <nav>
       <Box px={4} py={2}>
         <Flex justify='space-between' align='center'>
-          <Box>Logo</Box>
+          <CustomLink href='/'>
+            <Box>Logo</Box>
+          </CustomLink>
           <Box>
             <IconButton
               colorScheme='green'
